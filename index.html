@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href = "style.css">
 </head>
+
+
 <body>
     <div class="container">
         <div class="meal-wrapper">
@@ -16,6 +18,9 @@
                 <blockquote>Cooking is not just about ingredients, recipes, and cooking. It is about harnessing imagination, empowerment, and creativity. <br>
                     <cite> ~ Guy Fieri</cite>
                 </blockquote>
+
+                <!--search box design-->
+
                 <div class="search-box">
                     <input type="text" class="search-content" placeholder="Enter meal or ingredient
                     " id="search-input">
@@ -25,20 +30,74 @@
                     </button>  
                 </div>
             </div>
-            <div class="class-result">
+
+            <!-- meal results div -->
+
+            <div class="meal-result">
                 <h2 class="title">Your search results:</h2>
                 <div id="meal">
-                    <div class="class-item">
+
+                    <!--meal item-->
+                    <div class="meal-item">
                         <div class="meal-image">
-                            <img src="meal-gdbd6f1c4a_640.jpg" alt="beautiful meal layout">
+                            <img src="./images/meal-gdbd6f1c4a_640.jpg" alt="beautiful meal layout">
                         </div>
                         <div class="meal-name">
                             <h3>Delicious chicken quesadilla</h3>
                             <a href="#" class="recipe-btn">Get the Recipe</a>
                         </div>
                     </div>
+
+                    <!--end of meal item-->
+
+                    <!--meal item-->
+                    <div class="meal-item">
+                        <div class="meal-image">
+                            <img src="./images/meal-gdbd6f1c4a_640.jpg" alt="beautiful meal layout">
+                        </div>
+                        <div class="meal-name">
+                            <h3>Delicious chicken quesadilla</h3>
+                            <a href="#" class="recipe-btn">Get the Recipe</a>
+                        </div>
+                    </div>
+
+                    <!--end of meal item-->
+
+                    <!--meal item-->
+                    <div class="meal-item">
+                        <div class="meal-image">
+                            <img src="./images/meal-gdbd6f1c4a_640.jpg" alt="beautiful meal layout">
+                        </div>
+                        <div class="meal-name">
+                            <h3>Delicious chicken quesadilla</h3>
+                            <a href="#" class="recipe-btn">Get the Recipe</a>
+                        </div>
+                    </div>
+
+                    <!--end of meal item-->
                 </div>
             </div>
+
+            <div class = "meal-details">
+                <!-- recipe close btn -->
+                <button type = "button" class = "close-btn" id = "recipe-close-btn">
+                  <i class = "fas fa-times"></i>
+                </button>
+
+                <!-- meal content -->
+        <div class = "meal-details-content">
+             <h2 class = "recipe-title">Meals Name Here</h2>
+          <p class = "recipe-category">Category Name</p>
+          <div class = "recipe-instruct">
+            <h3>Instructions:</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+          </div>
+        </div>
+            <div class = "recipe-meal-img">
+             <img src = "./images/meal-gdbd6f1c4a_640.jpg" alt = "">
+            </div>
+        </div>
         </div>
     </div>
 
